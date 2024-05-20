@@ -1,0 +1,57 @@
+1. **Stack**:
+   - **Note**: A stack is a linear data structure that follows the Last In, First Out (LIFO) principle.
+   - **Operations**:
+     - **Push**: Adds an element to the top of the stack.
+     - **Pop**: Removes and returns the top element from the stack.
+     - **Peek/Top**: Returns the top element without removing it.
+     - **isEmpty**: Checks if the stack is empty.
+     - **Size**: Returns the number of elements in the stack.
+  
+2. **Queue**:
+   - **Note**: A queue is a linear data structure that follows the First In, First Out (FIFO) principle.
+   - **Operations**:
+     - **Enqueue**: Adds an element to the rear of the queue.
+     - **Dequeue**: Removes and returns the front element from the queue.
+     - **Front**: Returns the front element without removing it.
+     - **isEmpty**: Checks if the queue is empty.
+     - **Size**: Returns the number of elements in the queue.
+  
+3. **Linked List**:
+   - **Note**: A linked list is a linear data structure where elements, called nodes, are connected via pointers.
+   - **Operations**:
+     - **Insertion**:
+       - **At the beginning**: Adds an element at the start of the list.
+       - **At the end**: Adds an element at the end of the list.
+       - **At a specific position**: Inserts an element at a given position.
+     - **Deletion**:
+       - **At the beginning**: Removes the first element of the list.
+       - **At the end**: Removes the last element of the list.
+       - **At a specific position**: Deletes the element at a given position.
+     - **Traversal**: Visit each element in the list.
+  
+4. **Double Linked List**:
+   - **Note**: A doubly linked list is similar to a linked list, but each node contains pointers to both the next and the previous nodes.
+   - **Operations**:
+     - Same as linked list operations, plus:
+     - **Reverse Traversal**: Traverse the list in the backward direction.
+
+5. **Graphs**:
+   - **Note**: A graph is a non-linear data structure consisting of nodes (vertices) and edges that connect these nodes.
+   - **Operations**:
+     - **Add Vertex**: Adds a new vertex to the graph.
+     - **Add Edge**: Adds a new edge between two vertices.
+     - **Remove Vertex**: Removes a vertex and its associated edges from the graph.
+     - **Remove Edge**: Removes an edge between two vertices.
+     - **Traversal**: Visit each vertex and edge in the graph.
+  
+6. **Trees**:
+   - **Note**: A tree is a hierarchical data structure consisting of nodes, where each node has zero or more child nodes.
+   - **Operations**:
+     - **Insertion**: Add a new node to the tree.
+     - **Deletion**: Remove a node from the tree.
+     - **Traversal**:
+       - **Inorder**: Visit left subtree, current node, then right subtree.
+       - **Preorder**: Visit current node, then left and right subtrees.
+       - **Postorder**: Visit left and right subtrees, then current node.
+
+These data structures and their operations are foundational in computer science and are utilized in various algorithms and applications.
